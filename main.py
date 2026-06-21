@@ -27,9 +27,15 @@ bullets = []
 bullet_speed = 10
 obstacles = [
     pygame.Rect(105, 80, 250, 227), 
+    pygame.Rect(0, 50, 105, 227), 
     pygame.Rect(60, 430, 230, 200), 
     pygame.Rect(70, 310, 63, 40), 
     pygame.Rect(624, 10, 350, 180), 
+    pygame.Rect(585, 320, 67, 40), 
+    pygame.Rect(350, 80, 250, 150), 
+    pygame.Rect(1250, 0, 30, 250), 
+    pygame.Rect(1245, 250, 80, 30), 
+    pygame.Rect(1215, 110, 30, 85), 
    
 ]
 
