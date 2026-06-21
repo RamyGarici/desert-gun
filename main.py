@@ -26,16 +26,40 @@ player = pygame.Rect(640, 360, 32, 32)
 bullets = []
 bullet_speed = 10
 obstacles = [
-    pygame.Rect(105, 80, 250, 227), 
-    pygame.Rect(0, 50, 105, 227), 
-    pygame.Rect(60, 430, 230, 200), 
-    pygame.Rect(70, 310, 63, 40), 
-    pygame.Rect(624, 10, 350, 180), 
-    pygame.Rect(585, 320, 67, 40), 
-    pygame.Rect(350, 80, 250, 150), 
-    pygame.Rect(1250, 0, 30, 250), 
-    pygame.Rect(1245, 250, 80, 30), 
-    pygame.Rect(1215, 110, 30, 85), 
+   
+    pygame.Rect(105, 80, 250, 227),   # Medical
+    pygame.Rect(0, 50, 105, 227),     # Arbres haut gauche
+    pygame.Rect(60, 430, 230, 200),   # Police
+    pygame.Rect(70, 310, 63, 40),     # Ambulance
+    pygame.Rect(624, 10, 350, 180),   # Burgers
+    pygame.Rect(585, 320, 67, 40),     # Voiture orange centrale
+    pygame.Rect(350, 80, 250, 150),   # Parc de jeu / Grillage
+    pygame.Rect(1250, 0, 30, 250),    # Bord droit haut
+    pygame.Rect(1245, 250, 80, 30),   # Bidons bas droit
+    pygame.Rect(1215, 110, 30, 85),   # Benne à ordure droite
+
+    
+
+    pygame.Rect(905, 310, 80, 40),   
+    pygame.Rect(298, 545, 45, 70),    
+    pygame.Rect(935, 570, 95, 55), 
+    pygame.Rect(580, 530, 70, 40),    
+    pygame.Rect(970, 470, 80, 60),  
+    
+    pygame.Rect(750, 420, 75, 80),    # Fontaine centrale + herbe
+    pygame.Rect(720, 495, 135, 25),   # Sacs de sable sous la fontaine
+    pygame.Rect(675, 415, 30, 50),    # Sacs de sable à gauche de la fontaine
+    
+  
+    pygame.Rect(710, 270, 260, 45),   # Ligne de barils de pétrole (haut centre)
+    pygame.Rect(785, 265, 100, 25),   # Blocks en béton juste au-dessus des barils
+    pygame.Rect(550, 835, 150, 25),   # Barrière en métal / Grillage du bas
+    pygame.Rect(240, 625, 55, 30),   
+    pygame.Rect(60, 625, 55, 30),   
+    
+   
+    pygame.Rect(0, 0, 624, 80),     
+    pygame.Rect(0, 277, 60, 390),    
    
 ]
 
